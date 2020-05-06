@@ -5,8 +5,8 @@ bruh = input("input a string")
 characters = {}
 #for every character in the string it checks for every letter
 for i in bruh:
-     for i in characters:
-          characters(i) += 1
+     for x in characters:
+          characters(x) += 1
      else:
-          characters(i) = 1
+          characters(x) = 1
 print(str(characters))
