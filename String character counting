@@ -1,5 +1,12 @@
 #brady
 
 bruh = input("input a string")
-length = len(bruh)
-Print("The string is ", length," characters long.")
+
+characters = {}
+#for every character in the string it checks for every letter
+for i in bruh:
+     for i in characters:
+          characters(i) += 1
+     else:
+          characters(i) = 1
+print(str(characters))
