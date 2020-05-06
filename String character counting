@@ -1,0 +1,5 @@
+#brady
+
+bruh = input("input a string")
+length = len(bruh)
+Print("The string is ", length," characters long.")
